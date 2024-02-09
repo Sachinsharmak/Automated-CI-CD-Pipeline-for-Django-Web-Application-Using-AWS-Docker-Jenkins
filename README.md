@@ -32,7 +32,16 @@ That was pretty simple, right? Now let's make the App live. We just need to star
 ```bash
 $ python manage.py runserver
 ```
+Since we have Create a Dockerfile , let's Build and Run the server usind Docker command
+```bash
+$ docker build . -t todo-app && docker run -d -p 8001:8001 todo-app
+```
 
-Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
+We can also use the Docker-Compose file to run the Server
+```bash
+$ docker-compose up -d
+```
+
+Once the server is hosted, head over to http://127.0.0.1:8001/todos for the App.
 
 Cheers and Happy Coding :)
