@@ -1,3 +1,4 @@
+# A Real time CI/CD Pipeline on Jenkins with GitHub intergration and A System designed to handle Database, Server and Orchestration Using Docker, Docker Compose
 # django-todo
 A simple todo app built with django
 
